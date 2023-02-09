@@ -1,3 +1,5 @@
 import { HTMLAttributes } from 'react';
 
-export type TButtonProps = HTMLAttributes<HTMLButtonElement>;
+export type TButtonProps = {
+  fullWidth?: boolean;
+} & HTMLAttributes<HTMLButtonElement>;
