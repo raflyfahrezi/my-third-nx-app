@@ -9,6 +9,6 @@ export const SHeader = styled.div`
 `;
 
 export const SHeaderParagraph = styled.p`
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
 `;

@@ -15,9 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-third-app/task/*": ["apps/task/src/*"],
       "@my-third-app/contact/*": ["apps/contact/src/*"],
-      "@my-third-app/shared-ui": ["libs/shared-ui/src/index.ts"]
+      "@my-third-app/shared-ui": ["libs/shared-ui/src/index.ts"],
+      "@my-third-app/task/*": ["apps/task/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
